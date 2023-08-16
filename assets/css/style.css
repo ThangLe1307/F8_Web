@@ -122,8 +122,14 @@
 .all_news_img{
     height: 140px;
     width: 265px;
-    object-fit: cover;
+    object-fit:cover;
     object-position: 50% 50%;
     margin-right: 10px;
 
+}
+
+.all_news_item:hover{
+    border: 3px;
+    border-style:solid;
+    border-color: black;
 }
