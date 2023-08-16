@@ -95,5 +95,35 @@
 }
 .tabs{
     margin: 50px;
-    /* fdgcffghgfghfg */
+    
+}
+
+.all_news_item{
+    display: flex;
+    flex-direction: row;
+    margin:0px 50px 20px 50px;
+    background-color: white;
+    padding: 10px;
+}
+
+.all_news_title{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.all_news_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.all_news_img{
+    height: 140px;
+    width: 265px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-right: 10px;
+
 }
